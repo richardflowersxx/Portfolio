@@ -41,21 +41,24 @@ a {
 
 .about {
     display: flex;
-    flex-direction:row ;
-    align-items: center;
-    justify-content: space-between;    
 }
-
+.column1 {
+    flex: 30%;
+    border-right:solid 10px black;
+    margin-right: 20px;
+}
+.column2 {
+    flex: 70%;
+}
 .about h2 {
-    margin-left: 200px;
-    padding:0px 40px 0px 0px;
+    text-align: right;
+    padding-right: 20px;
 }
-
 
  .about p {
-    display:flex ;
-    padding: 0px 60px 0px 500px;
+    max-width: 700px;
  }
+ 
 
 .work {
     display: flex;
